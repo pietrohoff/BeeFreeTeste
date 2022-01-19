@@ -13,9 +13,9 @@
     "lint": "eslint --ignore-path .gitignore ./src"
   },
   "engines": {
-    "node": "8.x",
-    "npm": ">= 3"
-},
+    "npm": ">=6.0.0",
+    "node": ">=10.0.0"
+  },
   "repository": "git+https://github.com/BEE-Plugin/Bee-plugin-official.git",
   "keywords": [
     "editor",
