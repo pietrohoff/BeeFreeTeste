@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "(npm run lint && npm run clean && webpack --mode=production --config ./config/webpack.config.module.js)",
+    "clean": "rimraf dist",
     "lint": "eslint --ignore-path .gitignore ./src"
   },
 
