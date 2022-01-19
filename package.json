@@ -12,10 +12,7 @@
     "yarn": "1.19.1"
   },
   "scripts": {
-    "start": "node scripts/start.js",
-    "clean": "rimraf dist",
-    "build": "(npm run lint && npm run clean && webpack --mode=production --config ./config/webpack.config.module.js)",
-    "lint": "eslint --ignore-path .gitignore ./src"
+    "start": "node scripts/start.js"
   },
 
   "repository": "git+https://github.com/BEE-Plugin/Bee-plugin-official.git",
