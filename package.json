@@ -13,8 +13,8 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "clean": "rimraf dist",
-    "lint": "eslint --ignore-path .gitignore ./src"
+    "clean": "rimraf dist"
+    
   },
 
   "repository": "git+https://github.com/BEE-Plugin/Bee-plugin-official.git",
