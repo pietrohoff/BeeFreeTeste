@@ -6,6 +6,9 @@
   "files": [
     "dist"
   ],
+  "engines": {
+    "node": ">=50.9" 
+  },
   "scripts": {
     "start": "node scripts/start.js",
     "clean": "rimraf dist",
@@ -50,9 +53,6 @@
     "ajv": "^6.10.2",
     "load-script": "^1.0.0",
     "whatwg-fetch": "^3.0.0"
-  },
-  "engines": {
-    "node": "8.x",
-    "npm": ">= 3"
-}
+  }
+
 }
