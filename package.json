@@ -22,17 +22,7 @@
     "*.ts": "eslint"
   },
   "scripts": {
-    "start": "npx webpack serve",
-    "test": "jest",
-    "clean": "rimraf dist",
-    "build": "yarn lint && yarn clean && rollup -c && tsc",
-    "prepare": "husky install",
-    "lint": "eslint ./src --ext ts",
-    "prerelease": "git pull",
-    "release": "standard-version",
-    "postrelease": "git push --follow-tags --no-verify",
-    "release:alpha": "yarn prerelease && standard-version --prerelease alpha && yarn postrelease",
-    "release:beta": "yarn prerelease && standard-version --prerelease beta && yarn postrelease"
+    "start": "npx webpack serve"
   },
   "repository": "git+https://github.com/BEE-Plugin/Bee-plugin-official.git",
   "keywords": [
