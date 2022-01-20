@@ -4,6 +4,10 @@ import dotenv from 'dotenv'
 process.env.NODE_ENV = 'development'
 dotenv.config({ path: './.env' })
 
+
+const DEFAULT_PORT = process.env.PORT || 3000
+console.log('listening on port: ', DEFAULT_PORT)
+
 export default {
     entry: './example/integration.ts',
     devtool: 'inline-source-map',
