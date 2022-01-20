@@ -1,1 +1,1 @@
-web: npm npx webpack serve
+web: npm start
