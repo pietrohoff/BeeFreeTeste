@@ -2,7 +2,7 @@
   "name": "@mailupinc/bee-plugin",
   "version": "1.0.0",
   "engines": {
-    "node": "14.x"
+    "node": "12.11.1"
   },
   "description": "wrapper of bee-plugin",
   "main": "dist/index.js",
